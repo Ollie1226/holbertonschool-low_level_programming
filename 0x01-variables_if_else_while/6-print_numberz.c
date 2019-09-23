@@ -9,14 +9,11 @@
 
 int main(void)
 {
-	char i;
+	int i;
 
-	i = '0';
-
-	while (i <= '9')
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
-		i++;
 	}
 	putchar('\n');
 	return (0);
