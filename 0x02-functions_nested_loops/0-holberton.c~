@@ -1,0 +1,17 @@
+#include <stdlib.h>
+
+/**
+ * Only putchar
+ * prints Holberton
+ */
+
+int main(void)
+{
+	char Holberton;
+
+	Holberton = 'a';
+
+	putchar(a);
+	putchar('\n');
+	return (0);
+}
